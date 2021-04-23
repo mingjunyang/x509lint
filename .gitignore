@@ -1,2 +1,4 @@
 *.o
 x509lint
+CMakeLists.txt.user
+build
