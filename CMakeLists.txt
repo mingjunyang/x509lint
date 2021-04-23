@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16.5)
 project(x509lint)
 
 find_package(Iconv REQUIRED)
-find_package(Openssl REQUIRED)
+find_package(OpenSSL REQUIRED)
 
 set(CMAKE_C_FLAGS "-g -Wall -O2 -std=c11")
 
